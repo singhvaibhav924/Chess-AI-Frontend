@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    display: flex;
+    background-color: #ff002c;
+    height : 50px;
+    color: #fff;
+    font-family: Georgia, serif;
+    align-items: center;
+    justify-content: center;
+}
+#icon-holder {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    height : 40px;
+    width : 40px;
+    left: 30px;
+}
+#icon {
+    height : 40px;
+    width : 40px;
+    border-radius: 20px;
+}
+#app-name {
+    display: inline-block;
+    position: absolute;
+    font-size: 15pt;
+    cursor: default;
+}
+#info-page {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 3px 8px 3px 8px;
+    height : 20px;
+    right: 25px;
+    cursor: pointer;
+}

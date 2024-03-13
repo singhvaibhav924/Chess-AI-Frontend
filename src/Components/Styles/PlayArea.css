@@ -1,0 +1,34 @@
+.play-area {
+    border: 2px solid #ff002c;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.home-btn {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black; 
+    background-color: #ff002c;
+    border-radius: 14px;
+    width: 140px;
+    height: 32px;
+    font-size: 20px;
+    margin: 10px auto 0 auto;
+    cursor: pointer;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff002c;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 12px 5px;
+    font-family: Georgia, serif;
+}

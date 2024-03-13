@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './Components/Header';
+import PlayArea from './Components/PlayArea';
+import MainMenu from './Components/MainMenu';
+import AboutPage from './Components/AboutPage';
+import { useState } from 'react';
 function App() {
+  let [page, setPage] = useState("")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header setPage = {setPage}/>
+      <div className='Container'>
+      {
+  (() => {
+    if(page === "") {
+      return <MainMenu setPage = {setPage} />
+    } else if(page === "about") {
+      return <AboutPage setPage = {setPage} />
+    } else {
+      return <PlayArea fen = {page} setPage = {setPage} />
+    }
+  })()
+}
+      </div>
     </div>
   );
 }
 
 export default App;
+
