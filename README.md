@@ -29,4 +29,5 @@ Start the server
 ```bash
   npm run start
 ```
-Note - To know more about the Model Training, visit the [Github Repo](https://github.com/singhvaibhav924/Chess-AI)![Static Badge](https://img.shields.io/badge/AI-For_Life-blue)
+Note - To know more about the Model Training, visit the [Github Repo](https://github.com/singhvaibhav924/Chess-AI)  
+![Static Badge](https://img.shields.io/badge/AI-For_Life-blue)
