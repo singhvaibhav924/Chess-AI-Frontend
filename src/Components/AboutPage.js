@@ -30,6 +30,7 @@ export default function AboutPage(props) {
                 
             </div>
             <div id="return" onClick={() => { props.setPage("") }}><p>Return</p></div>
+            <p className="para">&nbsp;</p>
         </div>
     )
 }

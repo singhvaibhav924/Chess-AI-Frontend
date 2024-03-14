@@ -20,7 +20,7 @@ export default class PlayArea extends React.Component {
         selectedPromotion: "q",
       };
     } else {
-      this.boardState = new BoardStateManager(props.fen)
+      this.boardState = new BoardStateManager(props.fen, false)
       this.state = {
         board: new Chess(this.boardState.getCurrState()),
         selectedSquare: null,

@@ -3,12 +3,14 @@
     top: 0;
     bottom: 0;
     padding: 10px;
+    margin: 0px;
     text-align: justify;
     color: #000000 !important;
     width: 90vw;
     font-family: Georgia, serif;
 }
 .para {
+    position: relative;
     margin: 6px 0px 5px 12px;
 }
 #socials-container {
@@ -43,6 +45,7 @@
 }
 #return {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     background-color: #ff002c;
